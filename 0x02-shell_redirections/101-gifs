@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name '*.gif' -type f -printf '%P\n' | sed -e 's/\.gif$//' | LC_COLLATE=C sort -f;echo
+find -name '*.gif' -type f -printf '%P\n' | sed -e 's/\.gif$//' | LC_COLLATE=C sort -f
